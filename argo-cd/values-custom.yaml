@@ -365,15 +365,15 @@ configs:
     #    -----END OPENSSH PRIVATE KEY-----
 
   # -- Annotations to be added to `configs.credentialTemplates` Secret
-  credentialTemplatesAnnotations: {}
+  credentialTemplatesAnnotations:
 
-  github-user-public:
-    url: https://github.com/jfranquet
+    github-user-public:
+      url: https://github.com/jfranquet
 
   # -- Repositories list to be used by applications
   ## Creates a secret for each key/value specified below to create repositories
   ## Note: the last example in the list would use a repository credential template, configured under "configs.repositoryCredentials".
-  repositories: {}
+  repositories:
     # istio-helm-repo:
     #   url: https://storage.googleapis.com/istio-prerelease/daily-build/master-latest-daily/charts
     #   name: istio.io
@@ -386,9 +386,9 @@ configs:
     #   username: my-username
     # private-repo:
     #   url: https://github.com/argoproj/private-repo
-  jfranquet-argocd-test:
-    url: https://github.com/jfranquet/argocd-test.git
-    name: jfranquet-argocd-test
+    jfranquet-argocd-test:
+      url: https://github.com/jfranquet/argocd-test.git
+      name: jfranquet-argocd-test
 
 
 
