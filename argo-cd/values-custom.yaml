@@ -386,10 +386,9 @@ configs:
     #   username: my-username
     # private-repo:
     #   url: https://github.com/argoproj/private-repo
-
-    jfranquet-argocd-test:
-      url: https://github.com/jfranquet/argocd-test.git
-      name: jfranquet-argocd-test
+  jfranquet-argocd-test:
+    url: https://github.com/jfranquet/argocd-test.git
+    name: jfranquet-argocd-test
 
 
 
